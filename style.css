@@ -3,6 +3,9 @@ body {
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
 }
+.current {
+	font-weight: bold;
+}
 
 @keyframes gradient-animation {
   0% {
