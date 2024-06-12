@@ -3,17 +3,12 @@
 <html lang="en">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="script.js" defer></script>
 		<title>GradientTest</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<header> 
-		<h1>Home</h1>
-		<nav> 
-			<li><a class="current" href="#">Home</a></li>
-			<li><a href="android.html">Android</a></li>
-			<li><a href="#">IOS</a></li>
-			<li><a href="less_than_three.html">Less Than Three</a></li>
-		</nav>
+		<h1>Dynamic Test</h1>
 	</header>
 	<body>
 
