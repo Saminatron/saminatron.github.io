@@ -10,20 +10,29 @@
 	}
 	
 	var dynamicContent = getParameterByName('io');
+	var gradient = document.querySelector('.gradient-styling');
 	
 	$(document).ready(function() {
-		if (dynamicContent == 'apples') {
-			$('#apples').show();
+		if (dynamicContent == 'first') {
+			$('#first').show();
+			gradient.style.background = 'linear-gradient(300deg,#eb951c,#ffc900,#cdce00,#b5a200)';
 		}
-		else if (dynamicContent == 'oranges') {
-			$('#oranges').show();
+		else if (dynamicContent == 'stnd_usr') {
+			$('#stnd_usr').show();
+			gradient.style.background = 'linear-gradient(300deg,#23d200,#d2ffa4,#c3ddaf,#4faf00)';
 		}
 		
-		else if (dynamicContent == 'banana') {
-			$('#banana').show();
+		else if (dynamicContent == 'ios') {
+			$('#ios').show();
+		}		
+
+		else if (dynamicContent == 'android') {
+			$('#android').show();
 		}		
 		
 		else{
 			$('#default-content').show();
 		}
 	});
+	
+	

@@ -45,13 +45,3 @@
 
 	</body>
 </html>
-
-<!-- Pixel 5 -->
-
-<!-- 393 pixels width -->
-<!-- 851 pixels height -->
-
-<!-- Iphone 13 -->
-
-<!-- 390 pixels width -->
-<!-- 844 pixels height -->
