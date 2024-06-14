@@ -75,7 +75,7 @@
 
 .verification_icon {
 	position: relative;
-	padding: 0 60px 40px 60px;
+	padding: 0 60px 20px 60px;
 }
 .fail .button{
 	background: linear-gradient(300deg,#EB951C,#9F0000,#FF0000,#FF3434);
@@ -106,7 +106,7 @@
 	position: relative;
 	border-radius: 20px;
 	border: 1px solid;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 10%;
 	color: #d7d7d7;
 
