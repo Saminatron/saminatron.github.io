@@ -30,12 +30,12 @@
 			$('#android').show();
 		}		
 		
-		else if (dynamicContent == 'michelinman-jacket') {
-			$('#michelinman-jacket').show();
+		else if (dynamicContent == 'MichelinMan-Jacket') {
+			$('#MichelinMan-Jacket').show();
 		}	
 
-		else if (dynamicContent == 'speeddaemon-jacket') {
-			$('#speeddaemon-jacket').show();
+		else if (dynamicContent == 'SpeedDaemon-Jacket') {
+			$('#SpeedDaemon-Jacket').show();
 			gradient.style.background = 'linear-gradient(300deg,#EB951C,#9F0000,#FF0000,#6f0000)';
 		}		
 		
