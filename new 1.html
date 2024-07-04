@@ -22,7 +22,7 @@ function makeRequest(){
     var request = gapi.client.youtube.search.list({
             q: q,
             part: 'snippet', 
-            maxResults: 10
+            maxResults: 1
     });
     request.execute(function(response)  {                                                                                    
             $('#results').empty()
